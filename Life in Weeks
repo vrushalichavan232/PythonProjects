@@ -1,0 +1,12 @@
+
+age = input("What is your current age? ")
+
+days_lived=int(age)*365
+
+Total_days=32850
+
+remaining_days=Total_days-days_lived
+remaining_weeks= round(remaining_days/7)
+remaining_months=round(remaining_days/30)
+
+print(f"You have {remaining_days} days, {remaining_weeks} weeks, and {remaining_months} months left.")
